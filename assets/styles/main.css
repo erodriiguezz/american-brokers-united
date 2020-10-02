@@ -311,8 +311,17 @@ nav .button {
 #contact .map iframe {
   width: 100%;
   max-width: 1000px;
-  height: 400px;
+  height: 100%;
+  min-height: 400px;
   margin: auto;
+}
+
+#contact .form {
+  padding: 40px 20px;
+}
+
+#contact .form form {
+  width: 80%;
 }
 
 footer {

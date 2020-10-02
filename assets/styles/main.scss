@@ -342,8 +342,16 @@ nav {
     iframe {
       width: 100%;
       max-width: 1000px;
-      height: 400px;
+      height: 100%;
+      min-height: 400px;
       margin: auto;
+    }
+  }
+
+  .form {
+    padding: 40px 20px;
+    form {
+      width: 80%;
     }
   }
 }
